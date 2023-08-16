@@ -1,0 +1,105 @@
+.text-pink {
+  color: white !important;
+}
+.color-bg-pink {
+  background-color: rgb(179, 132, 143);
+}
+.suju {
+  color: brown;
+  font-family: "Times New Roman", Times, serif;
+}
+.space-left {
+  margin-left: 10px;
+}
+
+.container11 {
+  position: relative;
+}
+.top-left {
+  position: absolute;
+  top: 45px;
+  left: 40px;
+}
+.color-change {
+  color: rgb(179, 132, 143);
+}
+.padding-self {
+  margin-top: 5px;
+}
+.button-margin {
+  margin-left: 15px;
+}
+
+.title {
+  color: rgb(179, 132, 143);
+  text-align: center;
+  margin-top: 40px;
+  text-transform: uppercase;
+}
+.background-color {
+  background-color: rgb(179, 132, 143);
+}
+
+.weight-font {
+  font-weight: 900;
+}
+
+#nav {
+  height: 130px;
+  width: 100%;
+  /* background-color: red; */
+  display: flex;
+  align-items: center;
+  padding: 0 120px;
+  gap: 50px;
+  /* position: fixed; */
+  justify-content: flex-start;
+  z-index: 999;
+  color: white;
+  background-color: black;
+}
+.property {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  position: absolute;
+}
+
+#page {
+  height: 90vh;
+  position: relative;
+  top: 70px;
+  left: 20px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  flex-direction: column;
+  text-align: center;
+}
+#main {
+  position: relative;
+  background-color: rgba(0, 0, 0, 0.37);
+}
+
+#page h1 {
+  font-size: 70px;
+  font-weight: 900;
+  color: rgb(213, 30, 183);
+}
+#page h2 {
+  font-size: 30px;
+  font-weight: 800;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  color: white;
+}
+
+#page p {
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 19px;
+  width: 40%;
+  color: white;
+}
