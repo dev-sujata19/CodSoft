@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  /* box-sizing: border-box; */
+}
+
+html,
+body {
+  height: 100%;
+
+  width: 100%;
+}
+.header {
+  display: inline;
+  margin-left: 190px;
+}
+#nav {
+  display: flex;
+  align-items: center;
+
+  padding-bottom: 40px;
+  padding-right: 40px;
+  gap: 50px;
+
+  margin-bottom: 30px;
+  justify-content: flex-end;
+  background-color: black;
+  color: white;
+}
+
+.left-align {
+  text-align: justify;
+}
+#head {
+  text-align: center;
+}
+
+#img-1 {
+  margin-top: 40px;
+  margin-left: 240px;
+}
